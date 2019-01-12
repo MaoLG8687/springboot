@@ -1,0 +1,19 @@
+spring:
+  datasource:
+  #db1 这个名字可以随便取, 为了注入数据源数据的时候能分辨哪个是哪个
+    db1:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/db1?useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: root
+    db2:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/db2?useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: root
+    db3:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/db3?useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: root
+

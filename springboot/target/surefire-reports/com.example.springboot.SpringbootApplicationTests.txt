@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.example.springboot.SpringbootApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.692 s <<< FAILURE! - in com.example.springboot.SpringbootApplicationTests
+contextLoads(com.example.springboot.SpringbootApplicationTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+Caused by: org.yaml.snakeyaml.constructor.DuplicateKeyException: 
+while constructing a mapping
+ in 'reader', line 1, column 1:
+    spring:
+    ^
+found duplicate key spring
+ in 'reader', line 9, column 1:
+    spring:
+    ^
+
+

@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource.db1",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.example.springboot.config.DB1DataSourceConfig",
+      "sourceMethod": "DB1dataSource()"
+    },
+    {
+      "name": "spring.datasource.db2",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.example.springboot.config.DB2DataSourceConfig",
+      "sourceMethod": "DB1dataSource()"
+    },
+    {
+      "name": "spring.datasource.db3",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.example.springboot.config.DB3DataSourceConfig",
+      "sourceMethod": "DB1dataSource()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
