@@ -1,0 +1,8 @@
+
+dubbo:
+  application:
+    name: dubbo-consumer
+  registry:
+    address: zookeeper://47.105.200.53:2181
+server:
+  port: 8081  #应为我这里是将服务起在一台电脑, 和生产者的tomcat端口区分以免冲突
